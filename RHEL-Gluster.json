@@ -226,6 +226,12 @@
                             "lun": 1,
                             "createOption": "Empty"
                         }
+                        {
+                            "name": "[concat(parameters('vmNamePrefix'), copyIndex(), '_DataDisk3')]",
+                            "diskSizeGB": "[parameters('diskSize')]",
+                            "lun": 1,
+                            "createOption": "Empty"
+                        }
                     ]
                 },
                 "networkProfile": {
