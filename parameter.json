@@ -12,7 +12,7 @@
             "value": "scmadmin"
         },
         "adminPassword": {
-            "value": "Hash#Dollar&135"
+            "value": "HashDollar135"
         },
         "vmSize": {
             "value": "Standard_A1"
